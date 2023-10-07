@@ -47,9 +47,83 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight=".5">
+        <TextView
+            android:id="@+id/accnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textColor="#EF1010"
+            android:textSize="18sp"
+            android:background="@drawable/bgd"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:padding="8dp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+<TextView
+    android:id="@+id/fb"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="fb"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:textColor="#EF1010"
+    android:background="@drawable/bgd_1"
+    android:padding="10dp"
+    android:layout_below="@id/accnt"
+    android:layout_marginTop="25dp"
+    android:layout_marginLeft="80dp"/>
+        <TextView
+            android:id="@+id/in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="in"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#EF1010"
+            android:background="@drawable/bgd_1"
+            android:padding="10dp"
+            android:layout_below="@id/accnt"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/fb"
+            android:layout_marginLeft="30dp"/>
 
-
-
+        <TextView
+            android:id="@+id/g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="g+"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#EF1010"
+            android:background="@drawable/bgd_1"
+            android:padding="10dp"
+            android:layout_below="@id/accnt"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/in"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:id="@+id/tw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tw"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#EF1010"
+            android:background="@drawable/bgd_1"
+            android:padding="10dp"
+            android:layout_below="@id/accnt"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/g"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sign in with another account"
+            android:textSize="12sp"
+            android:layout_below="@id/fb"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
 
 
     </RelativeLayout>
